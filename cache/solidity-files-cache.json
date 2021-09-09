@@ -2,7 +2,7 @@
   "_format": "hh-sol-cache-2",
   "files": {
     "D:\\Projekty\\blockchain\\sell-smartcontract\\contracts\\SellGoods.sol": {
-      "lastModificationDate": 1631112530911,
+      "lastModificationDate": 1631204355914,
       "contentHash": "338933a58331bc1971fe6536b3013df7",
       "sourceName": "contracts/SellGoods.sol",
       "solcConfig": {
@@ -24,6 +24,9 @@
                 "ast"
               ]
             }
+          },
+          "metadata": {
+            "useLiteralContent": false
           }
         }
       },
@@ -33,6 +36,82 @@
       ],
       "artifacts": [
         "GoodsExchange"
+      ]
+    },
+    "D:\\Projekty\\blockchain\\sell-smartcontract\\contracts\\SellGoodsErc20.sol": {
+      "lastModificationDate": 1631207152989,
+      "contentHash": "dd0907d1bb3122b7b7c84537bda861c1",
+      "sourceName": "contracts/SellGoodsErc20.sol",
+      "solcConfig": {
+        "version": "0.8.7",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": false
+          }
+        }
+      },
+      "imports": [
+        "@openzeppelin/contracts/token/ERC20/IERC20.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.7"
+      ],
+      "artifacts": [
+        "GoodsExchangeErc20"
+      ]
+    },
+    "D:\\Projekty\\blockchain\\sell-smartcontract\\node_modules\\@openzeppelin\\contracts\\token\\ERC20\\IERC20.sol": {
+      "lastModificationDate": 1631176240226,
+      "contentHash": "0eac3e1a83ee62326ca007811285b274",
+      "sourceName": "@openzeppelin/contracts/token/ERC20/IERC20.sol",
+      "solcConfig": {
+        "version": "0.8.7",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": false
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "IERC20"
       ]
     }
   }
